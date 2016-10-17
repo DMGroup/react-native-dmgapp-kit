@@ -1,18 +1,28 @@
 {
-	"name": "DMGAPPCli",
+	"name": "DMGAPPKit",
 	"version": "1.0.0",
-	"description": "react-native-dmgapp build tools commond line",
-	"main": "index.js",
-	"dependencies": {
-		"minimist": "^1.2.0"
-	},
-	"devDependencies": {},
+	"description": "react-native-dmgapp build base code",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "15.3.2",
+		"react-native": "0.35.0"
+	},
+	"jest": {
+		"preset": "jest-react-native"
+	},
+	"devDependencies": {
+		"babel-jest": "16.0.0",
+		"babel-preset-react-native": "1.9.0",
+		"jest": "16.0.1",
+		"jest-react-native": "16.0.0",
+		"react-test-renderer": "15.3.2"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dmgapp/react-native-dmgapp-cli.git"
+		"url": "https://github.com/dmgapp/react-native-dmgapp-kit.git"
 	},
 	"keywords": [
 		"dmgapp",
@@ -21,3 +31,4 @@
 	"author": "DMG",
 	"license": "MIT"
 }
+
