@@ -1,0 +1,1 @@
+/** * 项目设置 */export default config = {  APP_VER : '1.0.0',  API_URI : 'http://whlz.dmgapp.com/api/v1/' ,  API_VER : 'v1',  API_SECRET : 'a72fcc6045c7bae7eb5563fc5f1ce645'};

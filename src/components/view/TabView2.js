@@ -1,0 +1,1 @@
+'use strict';import React, { Component } from 'react';import {  View,  Text,} from 'react-native';class TabView2 extends Component {  render() {    return(      <View>        <Text>tabView2</Text>      </View>    );  }}export default TabView2;

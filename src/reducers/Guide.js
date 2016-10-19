@@ -1,0 +1,1 @@
+'use strict';import * as types from '../actions';const initialState = {  inGuide: true,};export default function reducer( state = initialState , action = {} ) {  switch ( action.type ) {    case types.LaunchGuide:      return {        ...state ,        inGuide: false,      };    default:      return state;  }}

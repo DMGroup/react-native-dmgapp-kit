@@ -1,0 +1,1 @@
+'use strict';import * as types from './index';/** * 第一次启动App * @return */export function firstLaunch() {  return (dispatch) => {      dispatch({        type : types.LaunchGuide,      });  };}
